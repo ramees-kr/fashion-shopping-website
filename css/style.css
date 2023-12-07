@@ -251,7 +251,7 @@ footer {
 .menu_link {
   text-decoration: none;
   color: #f9f3ea;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: bold;
   transition: all 0.3s ease;
   font-family: "DSC Specter", Helvetica, Arial, sans-serif;
@@ -286,15 +286,12 @@ footer {
   transition: all 0.3s ease;
   font-family: "DSC Specter", Helvetica, Arial, sans-serif;
 }
-.social-link i {
-  font-size: 18px;
-}
 
 .social-link a:hover {
   color: #ddd;
 }
 
 .footer_copyright {
-  font-size: 12px;
+  font-size: 14px;
   font-family: "DSC Specter", Helvetica, Arial, sans-serif;
 }
