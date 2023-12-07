@@ -1,0 +1,351 @@
+.footer__container {
+  background-color: #001233;
+}
+
+.footer__container footer {
+  grid-column-gap: 28px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(4, auto);
+  margin: 0 auto;
+  max-width: 1280px;
+  padding: 50px 0;
+  width: calc(100% - 48px);
+}
+
+@media (min-width: 1024px) {
+  .footer__container footer {
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    padding: 80px 0;
+    width: calc(100% - 50px);
+  }
+}
+
+.footer__container footer .footer__menu {
+  display: inline-grid;
+  grid-column-end: 3;
+  grid-column-start: 1;
+  grid-row: 1;
+  margin-bottom: 32px;
+}
+
+@media (min-width: 1024px) {
+  .footer__container footer .footer__menu {
+    margin-bottom: 55px;
+  }
+}
+
+.footer__container footer .footer__social {
+  display: inline-flex;
+  flex-direction: row;
+  grid-column-end: 3;
+  grid-column-start: 1;
+  grid-row: 3;
+}
+
+@media (min-width: 1024px) {
+  .footer__container footer .footer__social {
+    grid-row: 2;
+  }
+}
+
+.footer__container footer .footer__copyright {
+  align-items: flex-start;
+  color: #efe0ca;
+  display: inline-flex;
+  flex-direction: row;
+  font-size: 1.4rem;
+  grid-column-end: 3;
+  grid-column-start: 1;
+  grid-row: 4;
+  line-height: 2.2rem;
+  margin-bottom: 16px;
+}
+
+@media (min-width: 1024px) {
+  .footer__container footer .footer__copyright {
+    grid-column-end: 2;
+    grid-row: 3;
+    margin-bottom: 0;
+  }
+}
+
+.footer__container footer .footer__legal {
+  align-items: flex-start;
+  color: #efe0ca;
+  display: inline-flex;
+  flex-direction: row;
+  font-size: 1.4rem;
+  grid-column-end: 3;
+  grid-column-start: 1;
+  grid-row: 5;
+  line-height: 2.2rem;
+}
+
+@media (min-width: 1024px) {
+  .footer__container footer .footer__legal {
+    grid-column-end: 5;
+    grid-column-start: 2;
+    grid-row: 3;
+  }
+}
+
+ul {
+  font-family: DSC Specter, Helvetica, Arial, sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+}
+
+ul {
+  color: #001233;
+  font-weight: 400;
+  line-height: 2.4rem;
+}
+
+.footer__container footer .footer__menu-list {
+  grid-column-gap: 28px;
+  grid-row-gap: 20px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(1, auto);
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__container footer .footer__country-select .country-select__wrapper {
+  background-color: #fff;
+  background-position: 14px 17px;
+  background-repeat: no-repeat;
+  background-size: 20px 14px;
+  height: 48px;
+  width: 128px;
+  background-repeat-x: no-repeat;
+  background-repeat-y: no-repeat;
+}
+
+.footer__container footer .footer__social .social-links {
+  list-style: none;
+  margin: 0;
+  padding: 0 0 25px;
+}
+
+.menu {
+  display: block;
+}
+
+.footer__container footer .footer__legal .menu--legal {
+  margin-bottom: 0;
+}
+
+select {
+  font-family: inherit;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+}
+
+select {
+  text-transform: none;
+}
+
+select {
+  -webkit-font-smoothing: antialiased;
+  text-size-adjust: 100%;
+}
+
+select {
+  touch-action: manipulation;
+}
+
+select {
+  appearance: none;
+  border: 1px solid #e0e0e0;
+  border-radius: 0;
+  max-width: 100%;
+  outline: none;
+  position: relative;
+}
+
+.footer__container
+  footer
+  .footer__country-select
+  .country-select__wrapper
+  .country-select__select {
+  appearance: auto;
+  -webkit-appearance: auto;
+  background: none;
+  border: none;
+  color: #001233;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  height: 100%;
+  margin: 0 0 0 40px;
+  text-align: left;
+  width: 72px;
+}
+
+.footer__container footer .footer__social .social-link {
+  display: inline;
+  font-size: 2rem;
+  margin-right: 20px;
+}
+
+.menu__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.footer__container footer .footer__legal .menu--legal .menu__list {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 680px) {
+  .footer__container footer .footer__legal .menu--legal .menu__list {
+    flex-direction: row;
+  }
+}
+
+a {
+  background-color: transparent;
+}
+
+a {
+  color: #001233;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a {
+  touch-action: manipulation;
+}
+
+.menu__link {
+  color: #001233;
+  cursor: pointer;
+  display: block;
+  text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+  .menu__link {
+    color: #efe0ca;
+  }
+}
+
+.footer__container footer .footer__menu-list .menu__link {
+  color: #efe0ca;
+  display: inline-block;
+  font-size: 1.4rem;
+}
+
+@media (min-width: 1024px) {
+  .footer__container footer .footer__menu-list .menu__link {
+    font-family: DSC Specter, Helvetica, Arial, serif;
+    font-size: 1.6rem;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 2.2rem;
+  }
+}
+
+a:hover {
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+option {
+  background-color: #efe0ca;
+  color: #001233;
+}
+
+.footer__container footer .footer__social .social-link a {
+  color: #efe0ca;
+  text-decoration: none;
+}
+
+.footer__container footer .footer__social .social-link a,
+.footer__container footer .footer__social .social-link a:hover {
+  color: #efe0ca;
+  text-decoration: none;
+}
+
+.footer__container footer .footer__social .social-link a,
+.footer__container footer .footer__social .social-link a:hover {
+  color: #efe0ca;
+  text-decoration: none;
+}
+
+.menu__item {
+  margin: 0;
+}
+
+.icon {
+  fill: currentColor;
+  background: transparent;
+  display: inline-block;
+  height: 1em;
+  width: 1em;
+}
+
+.icon-fallback-text {
+  clip: rect(0 0 0 0);
+  border: 0;
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute !important;
+  width: 1px;
+}
+
+footer .menu__link {
+  color: #efe0ca;
+  display: block;
+  font-family: DSC Specter, Helvetica, Arial, serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 2.2rem;
+  margin: 0;
+  padding: 0;
+}
+
+a:hover {
+  transition: all 0.2s ease;
+}
+
+p {
+  margin: 0 0 20px;
+}
+
+.menu__title {
+  font-family: DSC Specter, Helvetica, Arial, serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 800;
+  line-height: 2.2rem;
+  margin: 0;
+}
+
+p:last-of-type {
+  margin-bottom: 0;
+}
+
+.footer__container footer .footer__legal .menu--legal .menu__title {
+  color: #efe0ca;
+  font-family: DSC Specter, Helvetica, Arial, sans-serif;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: 2.2rem;
+  text-transform: none;
+}

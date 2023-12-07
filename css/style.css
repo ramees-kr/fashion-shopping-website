@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  /*font-family: "DSC Specter", Helvetica, Arial, sans-serif;
   /*font-family: "Roboto", sans-serif;*/
 }
 
@@ -37,27 +38,27 @@ nav {
   width: 75px;
 }
 
-.menu {
+nav .menu {
   display: flex;
   width: 30%;
   list-style: none;
   justify-content: space-between;
 }
 
-.menu li {
+nav .menu li {
   margin: 0 10px;
 }
 
-.menu li a {
+nav .menu li a {
   text-decoration: none;
   color: #f9f3ea;
   font-size: 18px;
   font-weight: bold;
   transition: all 0.3s ease;
-  font-family: "Roboto", sans-serif;
+  font-family: "DSC Specter", Helvetica, Arial, sans-serif;
 }
 
-.menu li a:hover {
+nav .menu li a:hover {
   color: #fe5000;
 }
 
@@ -170,19 +171,19 @@ nav {
     margin-bottom: 10px;
   }
 
-  .menu {
+  nav .menu {
     display: none;
     width: 100%;
     padding-top: 20px;
     flex-direction: column;
   }
 
-  .menu.active {
+  nav .menu.active {
     display: flex;
     align-items: center;
   }
 
-  .menu li {
+  nav .menu li {
     margin: 10px 0;
   }
 
@@ -213,4 +214,87 @@ nav {
   .menu-btn:hover {
     background-color: #ddd;
   }
+}
+
+footer {
+  width: 100%;
+  height: auto;
+  background-color: #001233;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  z-index: 1;
+}
+
+.footer_menu {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer_menu-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer_menu-list li {
+  margin-bottom: 10px;
+  width: 50%;
+}
+
+.menu_link {
+  text-decoration: none;
+  color: #f9f3ea;
+  font-size: 14px;
+  font-weight: bold;
+  transition: all 0.3s ease;
+  font-family: "DSC Specter", Helvetica, Arial, sans-serif;
+}
+
+.menu_link:hover {
+  color: #fe5000;
+}
+
+.footer_social {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.social-links {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+}
+
+.social-link {
+  margin-right: 15px;
+  font-size: 18px;
+}
+
+.social-link a {
+  text-decoration: none;
+  color: #fe5000;
+  font-size: 18px;
+  transition: all 0.3s ease;
+  font-family: "DSC Specter", Helvetica, Arial, sans-serif;
+}
+.social-link i {
+  font-size: 18px;
+}
+
+.social-link a:hover {
+  color: #ddd;
+}
+
+.footer_copyright {
+  font-size: 12px;
+  font-family: "DSC Specter", Helvetica, Arial, sans-serif;
 }
